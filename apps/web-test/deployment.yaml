@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: web-test
-        image: ghcr.io/zaszasxs/web-test:latest # This will be updated by GH Action
+        image: ghcr.io/zaszasxs/web-test:sha-4f6b6daef801b19e22a9c2ac6936a0eeb5b4f1b7
         ports:
         - containerPort: 80
 ---
